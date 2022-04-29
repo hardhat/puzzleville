@@ -1,0 +1,15 @@
+@font-face {
+ font-family: IntroBlackInlineCAPS;
+ src: url('font/IntroDemo-BlackInline.eot');
+ src: url('font/IntroDemo-BlackInline.eot?#iefix') format('embedded-opentype'),
+ url('font/IntroDemo-BlackInline.woff2') format('woff2'), 
+ url('font/IntroDemo-BlackInline.woff') format('woff'),
+ url('font/IntroDemo-BlackInline.ttf') format('truetype');
+}{
+ font-family: IntroCondLightCAPS;
+ src: url('font/IntroDemoCond-LightCAPS.eot');
+ src: url('font/IntroDemoCond-LightCAPS.eot?#iefix') format('embedded-opentype'),
+ url('font/IntroDemoCond-LightCAPS.woff2') format('woff2'), 
+ url('font/IntroDemoCond-LightCAPS.woff') format('woff'),
+ url('font/IntroDemoCond-LightCAPS.ttf') format('truetype');
+}

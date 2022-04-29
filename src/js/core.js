@@ -1,0 +1,7 @@
+function navbar()
+{
+}
+
+function footer()
+{
+}
