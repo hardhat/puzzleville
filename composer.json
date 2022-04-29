@@ -1,0 +1,6 @@
+{
+    "require" : {
+        "hybridauth/hybridauth" : "~3.0",
+        "twbs/bootstrap": "5.1.3"
+    }
+}
