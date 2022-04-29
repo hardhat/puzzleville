@@ -1,0 +1,25 @@
+{
+  "name": "puzzleville",
+  "version": "1.0.0",
+  "description": "Puzzle Creation Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "192.168.1.130:/var/lib/git/puzzleville"
+  },
+  "keywords": [
+    "Puzzle",
+    "Activity",
+    "PDF",
+    "SVG"
+  ],
+  "author": "Dark Marble Creative",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  }
+}
