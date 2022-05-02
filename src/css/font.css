@@ -1,15 +1,15 @@
 @font-face {
  font-family: IntroBlackInlineCAPS;
- src: url('font/IntroDemo-BlackInline.eot');
- src: url('font/IntroDemo-BlackInline.eot?#iefix') format('embedded-opentype'),
- url('font/IntroDemo-BlackInline.woff2') format('woff2'), 
- url('font/IntroDemo-BlackInline.woff') format('woff'),
- url('font/IntroDemo-BlackInline.ttf') format('truetype');
+ src: url('/fonts/IntroDemo-BlackInlineCAPS.eot');
+ src: url('/fonts/IntroDemo-BlackInlineCAPS.eot?#iefix') format('embedded-opentype'),
+ url('/fonts/IntroDemo-BlackInlineCAPS.woff2') format('woff2'), 
+ url('/fonts/IntroDemo-BlackInlineCAPS.woff') format('woff'),
+ url('/fonts/IntroDemo-BlackInlineCAPS.ttf') format('truetype');
 }{
  font-family: IntroCondLightCAPS;
- src: url('font/IntroDemoCond-LightCAPS.eot');
- src: url('font/IntroDemoCond-LightCAPS.eot?#iefix') format('embedded-opentype'),
- url('font/IntroDemoCond-LightCAPS.woff2') format('woff2'), 
- url('font/IntroDemoCond-LightCAPS.woff') format('woff'),
- url('font/IntroDemoCond-LightCAPS.ttf') format('truetype');
+ src: url('/fonts/IntroDemoCond-LightCAPS.eot');
+ src: url('/fonts/IntroDemoCond-LightCAPS.eot?#iefix') format('embedded-opentype'),
+ url('/fonts/IntroDemoCond-LightCAPS.woff2') format('woff2'), 
+ url('/fonts/IntroDemoCond-LightCAPS.woff') format('woff'),
+ url('/fonts/IntroDemoCond-LightCAPS.ttf') format('truetype');
 }
