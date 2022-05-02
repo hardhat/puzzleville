@@ -5,7 +5,8 @@
  url('/fonts/IntroDemo-BlackInlineCAPS.woff2') format('woff2'), 
  url('/fonts/IntroDemo-BlackInlineCAPS.woff') format('woff'),
  url('/fonts/IntroDemo-BlackInlineCAPS.ttf') format('truetype');
-}{
+}
+@font-face {
  font-family: IntroCondLightCAPS;
  src: url('/fonts/IntroDemoCond-LightCAPS.eot');
  src: url('/fonts/IntroDemoCond-LightCAPS.eot?#iefix') format('embedded-opentype'),
