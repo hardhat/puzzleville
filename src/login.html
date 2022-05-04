@@ -1,6 +1,19 @@
 //=include include/header.html
-<form>
-	<input name="username" shadow="Email address">
-	<input type="password" name="password" shadow="Password">
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+<form method="POST" action="api/login.php">
+	<div class="mb-3">
+	<input class="form-input" type="email" name="username" shadow="Email address">
+	</div>
+	<div class="mb-3">
+	<input class="form-input" type="password" name="password" shadow="Password">
+	</div>
+	<div class="mb-3">
+	<button class="btn btn-primary" name="submit">Login</button>
+	</div>
 </form>
+		</div><!-- card -->
+	</div><!-- col -->
+</div><!-- row -->
 //=include include/footer.html
