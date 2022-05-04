@@ -1,31 +1,47 @@
-var gulp            = require('gulp'); // Gulp core package
-var sass            = require('gulp-sass'); // Package to compile scss files
-var path            = require('path'); // Gulp path package
+const gulp = require('gulp')
+const include = require('gulp-include')
+ 
+const srcPath         = 'src/'; // Path to our source files
+const distPath        = 'dist/'; // Path to your distribution files
 
-var srcPath         = 'templates/src/'; // Path to our source files
-var distPath        = 'templates/dist/'; // Path to your distribution files
+function html() {
+  return gulp.src(srcPath+'*.html')
+    .pipe(include({
+	extensions: 'html',
+        hardFail: true,
+      }))
+      .on('error', console.log)
+    .pipe(gulp.dest(distPath))
+}
 
-// Files/Paths that need to be watched by gulp
-var watchPaths    = {
-    sass:        [srcPath+'sass/styles.scss']
-};
+function ico() {
+  return gulp.src(srcPath+'*.ico')
+    .pipe(gulp.dest(distPath))
+}
 
-// Task for sass files
-gulp.task('sass', function () {
-    gulp
-        // Load styles.sass into the stream
-        .src(srcPath + 'sass/styles.scss') 
-        // Compile the styles.scss using the gulp-sass package
-        .pipe(sass())
-        // Save the compiled file as styles.css to our distribution location
-        .pipe(gulp.dest(distPath + 'css'));
+function image() {
+  return gulp.src(srcPath+'img/**')
+    .pipe(gulp.dest(distPath+'img/'))
+}
 
-});
+function fonts() {
+  return gulp.src(srcPath+'fonts/**')
+    .pipe(gulp.dest(distPath+'fonts/'))
+}
 
-// The watch task will be executed upon each file change
-gulp.task('watch', function() {
-    gulp.watch(watchPaths.sass, ['sass']);
-});
+function js() {
+  return gulp.src(srcPath+'js/**')
+    .pipe(gulp.dest(distPath+'js/'))
+}
 
-// Default task is executed upon execution of gulp
-gulp.task('default', ['sass', 'watch']);
+function css() {
+  return gulp.src(srcPath+'css/**')
+    .pipe(gulp.dest(distPath+'css/'))
+}
+
+function php() {
+  return gulp.src(srcPath+'**/*.php')
+    .pipe(gulp.dest(distPath))
+}
+
+exports.default = gulp.series(html,ico,image,fonts,js,css,php);
