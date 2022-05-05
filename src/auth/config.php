@@ -9,6 +9,7 @@ $config = [
     'callback' => 'https://puzzleville.darkmarblecreative.com/auth/callback.php',
     'providers' => [
 
+        // 'Facebook' => ['enabled' => true, 'keys' => ['id' => '...', 'secret' => '...']],
         'Google' => [
             'enabled' => true,
             'keys' => [
@@ -19,8 +20,7 @@ $config = [
         ],
 
         // 'Yahoo' => ['enabled' => true, 'keys' => ['key' => '...', 'secret' => '...']],
-        // 'Facebook' => ['enabled' => true, 'keys' => ['id' => '...', 'secret' => '...']],
-        // 'Twitter' => ['enabled' => true, 'keys' => ['key' => '...', 'secret' => '...']],
+        'Twitter' => ['enabled' => true, 'keys' => ['key' => 'NXpsVTlxVUtlX3dZYzk3SV9WYUo6MTpjaQ', 'secret' => 'bO1KwJK3oWMv8fNqkKfhSrF60PX3bVRpfnBIdpi-AumCpzWqsN']],
         // 'Instagram' => ['enabled' => true, 'keys' => ['id' => '...', 'secret' => '...']],
 
     ],

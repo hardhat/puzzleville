@@ -3,7 +3,7 @@
  * A simple example that shows how to use multiple providers, opening provider authentication in a pop-up.
  */
 
-require '../../vendor/autoload.php';
+require 'vendor/autoload.php';
 require 'config.php';
 
 use Hybridauth\Exception\Exception;

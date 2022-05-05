@@ -3,7 +3,7 @@
  * Build a simple HTML page with multiple providers, opening provider authentication in a pop-up.
  */
 
-require '../../vendor/autoload.php';
+require 'vendor/autoload.php';
 require 'config.php';
 
 use Hybridauth\Hybridauth;
