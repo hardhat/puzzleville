@@ -1,6 +1,22 @@
 //=include include/header.html
 <div class="row">
 <div class="col-12">
+<ul class="nav nav-tabs" id="homeTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">About Us</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact Us</button>
+  </li>
+</ul>
+<div class="tab-content" id="homeTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+	<div class="container">
+		<div class="row">
+			<div class="col-8">
 	<h2 class="headline2">Please login to create puzzles</h2>
 	<p>We have tools to make your low-content print-on-demand puzzle books quickly and easily:</p>
 	<ul>
@@ -14,6 +30,21 @@
 	</ul>
 	<p>Generate a single page, a question SVG and an answer SVG, or generate a whole collection and export as a single PDF</p>
 	<p><a class="btn btn-primary" href="join.html">Join Now</a>
+		</div><!-- col -->
+		<div class="col-4">
+			<img class="img-fluid" src="img/pexels-monstera-7352899.jpg">
+		</div><!-- col -->
+	</div><!-- row -->
+	</div><!-- container -->
+  </div><!-- tab-pane -->
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+//=include include/about.html
+  </div><!-- tab-pane -->
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+//=include include/contact.html
+  </div><!-- tab-pane -->
+</div>
+
 </div><!-- col -->
 </div><!-- row -->
 //=include include/footer.html
