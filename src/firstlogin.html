@@ -1,0 +1,28 @@
+
+//=include include/header.html
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+			<h2>User account confirmed!</h2>
+			<p>Now please login for your first time.</p>
+		</div><!-- card -->
+		<div class="card">
+<form method="POST" action="api/login.php">
+	<div class="mb-3">
+		<label for="username" class="form-label">Username</label>
+		<input class="form-input" type="email" name="username" shadow="Email address">
+	</div>
+	<div class="mb-3">
+		<label for="password" class="form-label">Password</label>
+		<input class="form-input" type="password" name="password" shadow="Password">
+	</div>
+	<div class="mb-3">
+	<button class="btn btn-primary" name="submit">Login</button>
+	</div>
+</form>
+		</div><!-- card -->
+	</div><!-- col -->
+</div><!-- row -->
+//=include include/footer.html
+//=include include/login.html
+//=include include/endbody.html

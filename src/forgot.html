@@ -1,0 +1,22 @@
+
+//=include include/header.html
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+<form method="POST" action="api/reset-password.php">
+			<h2>Forgot your password?</h2>
+			<p>Your username is your email address.  For a pssword reset submit the form below.</p>
+	<div class="mb-3">
+		<label for="username" class="form-label">Username</label>
+		<input class="form-input" type="email" name="username" shadow="Email address">
+	</div>
+	<div class="mb-3">
+	<button class="btn btn-primary" name="submit">Reset Password</button>
+	</div>
+</form>
+		</div><!-- card -->
+	</div><!-- col -->
+</div><!-- row -->
+//=include include/footer.html
+//=include include/login.html
+//=include include/endbody.html

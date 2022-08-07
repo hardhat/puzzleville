@@ -14,7 +14,3 @@ if(isset($_POST['again'])) {
 }
 ?>
 Thank-you for logging in.  <a href="/">Return to Home Page</a>
-<?php 
-if($_POST['username']=="creative_ruby@darkmarblecreative.com") {
-	phpinfo();
-}
