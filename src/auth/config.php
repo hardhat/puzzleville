@@ -13,14 +13,14 @@ $config = [
         'Google' => [
             'enabled' => true,
             'keys' => [
-                'id' => '695562451798-mai8pvnqlihdjo8135rr0mot8qiffrpv.apps.googleusercontent.com',
-                'secret' => '-Fkr44T3qfLhbv8Wx-xRSW4v',
+                'id' => '...',
+                'secret' => '...',
             ],
             'scope' => 'email',
         ],
 
         // 'Yahoo' => ['enabled' => true, 'keys' => ['key' => '...', 'secret' => '...']],
-        'Twitter' => ['enabled' => true, 'keys' => ['key' => 'NXpsVTlxVUtlX3dZYzk3SV9WYUo6MTpjaQ', 'secret' => 'bO1KwJK3oWMv8fNqkKfhSrF60PX3bVRpfnBIdpi-AumCpzWqsN']],
+        // 'Twitter' => ['enabled' => true, 'keys' => ['key' => '...', 'secret' => '...']],
         // 'Instagram' => ['enabled' => true, 'keys' => ['id' => '...', 'secret' => '...']],
 
     ],
